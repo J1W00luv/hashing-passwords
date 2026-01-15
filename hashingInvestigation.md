@@ -1,7 +1,7 @@
 # Password Hashing Investigation
 
 ## **Aim:**
-	To learn about different hashing methods and what they are used for. To compare different algorithms and understand how they work/why different algorithms are created for. Also make a program for hashing & cracking the passwords that were hashed using weak algorithms.
+To learn about different hashing methods and what they are used for. To compare different algorithms and understand how they work/why different algorithms are created for. Also make a program for hashing & cracking the passwords that were hashed using weak algorithms.
 
 ## **Method:**
 	1. Research Preparation: Find information about different hashing algorithms.
@@ -26,12 +26,8 @@
 | abc4 | 0.025257587432861328 | 0.0255889892578125 |
 | zzz0 | 29.589022874832153| 33.83320450782776 |
 
-
-
 ## **Comparison:**
-
 All 4 hashing methods used on the same password gave out results with different length and characters used. MD5 & SHA1 are very fast hashing methods, meaning they are not going to stand against brute force attacks, when a person just uses a trial & error method to recover the password. MD5 is also known for having hash collisions, meaning different inputs produce the same output. The best option for hashing passwords is Bcrypt, because it was specifically created for password hashing. My program testing results showed that SHA256 tends to take more time to be cracked than MD5, but both can be cracked within a decent amount of time. The harder the password was, the longer was the time used to find it, even with the same length.
 
 ## **Conclusion:**
-	There are different ways to hash data to be stored in databases. Some old hashes are MD5 and SHA1, they are not used widely nowadays. For hashing data the choice should be SHA256, and Bcrypt for passwords as it is protected from brute force attacks. It is a good practice to make passwords longer and more complicated in order to protect yourself from brute force attacks.
-
+There are different ways to hash data to be stored in databases. Some old hashes are MD5 and SHA1, they are not used widely nowadays. For hashing data the choice should be SHA256, and Bcrypt for passwords as it is protected from brute force attacks. It is a good practice to make passwords longer and more complicated in order to protect yourself from brute force attacks.
